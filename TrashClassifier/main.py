@@ -67,9 +67,9 @@ while True:
         'Resources/background.png'
     )
 
-    predection = classifier.getPrediction(img)
+    prediction = classifier.getPrediction(img)
 
-    classID = predection[1]
+    classID = prediction[1]
     print(classID)
 
     if classID != 0:
